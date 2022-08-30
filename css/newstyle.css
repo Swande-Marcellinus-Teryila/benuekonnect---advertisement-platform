@@ -1,0 +1,85 @@
+.serv{
+    color:blue;
+    font-size: 150%;
+    width:70%;
+    margin: 0 auto;
+    margin-top:1px;
+}
+.su{
+    line-height: 40px;
+}
+.sh{
+    text-align: center;
+    background-color: blue;
+    color:white;
+    padding: 8px;
+}
+.sform{
+    width:60%;
+    margin: 0 auto;
+    background-color:#d6cdcd;
+    padding:20px;
+    border-radius: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.note{
+    color:crimson;
+    font-weight: bold;
+    font-size:65%;
+}
+.fs{
+    width:100%;
+    padding:8px;
+    color: solid grey;
+    margin: 10px 0;
+    border:2px solid blue;
+}
+.ps{
+    text-align: center;
+}
+.butt{
+    display:flex;
+    justify-content: center;
+    background-color:blue;
+    color:white;
+    border:0;
+    border-radius: 10px;
+    cursor:pointer;
+    width:40%;
+    padding:10px 12px;
+    margin:auto;
+    margin-top:20px;
+    font-weight: bold;
+    font-size:18px;
+}
+.con {
+    text-align: justify;
+    border:2px solid blue;
+    padding: 8px 20px;
+}
+.support ol li{
+    margin-top: 15px;
+    font-size:85%;
+}
+.terms ol li{
+    margin-top: 15px;
+    font-size:85%;
+}
+
+
+
+@media screen and (max-width: 700px) {
+    .serv{
+        font-size: 95%;
+        width:90%;
+    }
+}
+@media screen and (max-width: 900px) {
+    .serv{
+        font-size: 95%;
+        width:90%;
+    }
+    .sform{
+        width:90%;
+    }
+}
